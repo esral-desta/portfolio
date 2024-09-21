@@ -1854,3 +1854,21 @@ span.error {
 .gsap-reveal-img .reveal-wrap .reveal-content .portfolio-item-content h3 {
   margin-bottom: 10px;
 }
+
+
+.slide{position:absolute;
+  overflow:hidden;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background-color:#000000;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover}
+  
+  .card-inner.card-started .slide:after{
+    content:'';
+    position:absolute;
+    left:0;top:0;width:100%;height:100%;background:#181818;opacity:.6
+  }
