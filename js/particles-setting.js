@@ -10,7 +10,7 @@ $(function () {
 		particlesJS('particles-bg', {
 			"particles": {
 				"number": {
-					"value": 80,
+					"value": 10,
 					"density": {
 						"enable": false,
 						"value_area": 1000
@@ -122,10 +122,10 @@ $(function () {
 		particlesJS('particles-bg', {
 			"particles": {
 				"number": {
-					"value": 1,
+					"value": 3,
 					"density": {
 						"enable": true,
-						"value_area": 1
+						"value_area": 500
 					}
 				},
 				"color": {
@@ -168,7 +168,7 @@ $(function () {
 				},
 				"line_linked": {
 					"enable": true,
-					"distance": 1050,
+					"distance": 250,
 					"color": "#ffffff",
 					"opacity": 0.4,
 					"width": 1
