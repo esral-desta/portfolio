@@ -803,8 +803,7 @@ a, a:hover {
 .portfolio-item .overlay, .blog-item .overlay {
   position: relative;
   z-index: 8;
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
@@ -853,6 +852,18 @@ a, a:hover {
   font-family: "Arimo", sans-serif;
 }
 
+.overlay .portfolio-item-content {
+  padding-bottom: 10px;
+  padding-left: 5px;
+  border-radius: 5px;
+  background: rgb(41, 39, 78);
+  background: linear-gradient(
+    32deg,
+    rgba(41, 39, 78, 1) 0%,
+    rgba(49, 85, 173, 1) 48%,
+    rgba(40, 136, 156, 1) 100%
+  );
+}
 .portfolio-item:hover .overlay, .blog-item:hover .overlay {
   opacity: 1;
   visibility: visible;
